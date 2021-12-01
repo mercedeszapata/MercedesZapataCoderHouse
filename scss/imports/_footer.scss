@@ -1,0 +1,17 @@
+@import "./variables";
+
+
+footer {
+    .cajafooter {
+        background-color: $colorPrincipal;
+        line-height: center;
+
+        .cajafooter_mensaje {
+            background-color: $colorPrincipal;
+            height: 50px;
+            text-align: center;
+
+
+        }
+    }
+}

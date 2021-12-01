@@ -1,0 +1,261 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*barra de menu */
+/* .cajamenu {
+    background-color: lavender;
+    height: 50px;
+    width: auto;
+    margin: 10px;
+} */
+/* .navbarnavbar-expand-lgnavbar-lightbg-light {
+    background-color: lavender;
+
+
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.nav-link {
+    justify-content: center;
+    height: 50px;
+    width: auto;
+    line-height: 25px;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+
+}
+
+.nav-link:hover {
+    color: khaki;
+}
+
+
+
+
+header {
+    margin: 20px;
+}
+
+h1 {
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+}
+
+.carousel-item {
+    margin: 50px;
+}
+
+
+.video {
+    height: 100%;
+    width: 100%;
+}
+
+h4 {
+    color: orange;
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h5 {
+    color: orange;
+    margin: 5px;
+    text-align: center;
+}
+
+.oferta {
+
+    color: orangered;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 5px;
+    justify-content: center;
+
+}
+
+.cajaseccion {
+    display: grid;
+    grid-template-areas:
+        "section1""section2";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.section2 {
+    text-align: center;
+    background-color: khaki;
+}
+
+.section2 td {
+    text-align: justify;
+}
+
+main {
+    margin: 20px;
+}
+
+h2 {
+    color: LightSlateGray;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.cajafooter {
+    background-color: lavender;
+    height: 50px;
+    text-align: center;
+
+}
+
+
+
+.listaproducto {
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+
+.listaoferta {
+    list-style-type: square;
+    list-style-position: outside;
+
+}
+
+
+.productosDisponibles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-basis: 1200px;
+
+
+
+}
+
+.imagen1 {
+    width: 320px;
+    height: 320px;
+    margin: 20px;
+    order: 1;
+}
+
+.imagen1:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.imagen:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.imagen {
+    width: 320px;
+    height: 320px;
+    margin: 20px;
+}
+
+
+
+
+.enviar {
+    background-color: palevioletred;
+}
+
+#mainContacto {
+    background-image: linear-gradient(to bottom, palevioletred, lavender);
+}
+
+
+.quienes {
+    background-color: khaki;
+    text-align: center;
+
+}
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: black;
+    text-align: justify;
+
+}
+
+
+.carrito {
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.es%2Ffotos-vectores-gratis%2Fcarrito-de-compras&psig=AOvVaw17ydNRjzOn2gap_WPIN7gv&ust=1634854668298000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPjivbCC2vMCFQAAAAAdAAAAABAT);
+
+}
+
+
+@media only screen and (max-width:576px) {
+    .carrusel {
+        width: auto;
+
+    }
+
+    .d-block {
+        width: 288px;
+    }
+
+
+
+    .cajaseccion {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+}
+
+@media only screen and (max-width:720px) {
+    .carrusel {
+        width: auto;
+
+    }
+
+    .cajaseccion {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+}
+
+@media only screen and (min-width:960px) {
+
+    .carrusel {
+        width: auto;
+
+    }
+
+    .cajaseccion {
+        display: grid;
+        grid-template-areas:
+            "section1""section2";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+
+    }
+} */

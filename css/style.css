@@ -1,0 +1,212 @@
+#mainContacto {
+  background-color: khaki; }
+
+.btn {
+  background-color: palevioletred; }
+
+footer .cajafooter {
+  background-color: lavender;
+  line-height: center; }
+  footer .cajafooter .cajafooter_mensaje {
+    background-color: lavender;
+    height: 50px;
+    text-align: center; }
+
+.productosDisponibles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  flex-basis: 1200px; }
+
+.imagen:hover 1 {
+  transform: scale(1.1, 1.1); }
+
+.imagen:hover 2 {
+  transform: scale(1.1, 1.1); }
+
+.imagen:hover 3 {
+  transform: scale(1.1, 1.1); }
+
+.imagen:hover 4 {
+  transform: scale(1.1, 1.1); }
+
+.imagen:hover 5 {
+  transform: scale(1.1, 1.1); }
+
+.imagen:hover 6 {
+  transform: scale(1.1, 1.1); }
+
+/*pagina quienes somos*/
+.quienes {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 5px; }
+
+.quienesDescripcion {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  color: black;
+  text-align: justify;
+  background-color: khaki;
+  height: 20%;
+  padding: 20px; }
+
+.quienesLogo {
+  height: 20%; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.seccionTitulo_titulo {
+  color: LightSlateGray;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.w-100 {
+  width: 100%; }
+
+.nav-link {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width: auto;
+  line-height: 25px;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  text-align: center; }
+
+.nav-link a {
+  display: flex;
+  justify-content: space-between; }
+
+/*index*/
+header {
+  margin: 20px; }
+
+h1 {
+  font-family: "Satisfy", cursive;
+  text-align: center; }
+
+.carousel-item {
+  margin: 50px; }
+
+.video {
+  height: 100%;
+  width: 100%; }
+
+h4 {
+  color: orange;
+  margin: 5px;
+  text-align: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif; }
+
+h5 {
+  color: orange;
+  margin: 5px;
+  text-align: center; }
+
+.oferta {
+  color: orangered;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 5px;
+  justify-content: center; }
+
+.cajaseccion {
+  display: grid;
+  grid-template-areas: "section1" "section2";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto; }
+
+.section2 {
+  text-align: center;
+  background-color: khaki; }
+
+.section2 td {
+  text-align: justify; }
+
+main {
+  margin: 20px; }
+
+h2 {
+  color: LightSlateGray;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.listaproducto {
+  text-decoration: none;
+  letter-spacing: 5px; }
+
+.listaoferta {
+  list-style-type: square;
+  list-style-position: outside; }
+
+/*pagina de productos*/
+.productosDisponibles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  flex-basis: 1200px; }
+
+.imagen1 {
+  width: 320px;
+  height: 320px;
+  margin: 20px;
+  order: 1; }
+
+.imagen1:hover {
+  transform: scale(1.1, 1.1); }
+
+.imagen:hover {
+  transform: scale(1.1, 1.1); }
+
+.imagen {
+  width: 320px;
+  height: 320px;
+  margin: 20px; }
+
+/*pagina carrito de compras*/
+.carrito {
+  background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.es%2Ffotos-vectores-gratis%2Fcarrito-de-compras&psig=AOvVaw17ydNRjzOn2gap_WPIN7gv&ust=1634854668298000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPjivbCC2vMCFQAAAAAdAAAAABAT); }
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 576px) {
+  .carrusel {
+    width: auto; }
+  .d-block {
+    width: 288px; }
+  .cajaseccion {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto; } }
+
+@media only screen and (max-width: 720px) {
+  .carrusel {
+    width: auto; }
+  .cajaseccion {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto; } }
+
+@media only screen and (min-width: 960px) {
+  .carrusel {
+    width: auto; }
+  .cajaseccion {
+    display: grid;
+    grid-template-areas: "section1" "section2";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto; } }

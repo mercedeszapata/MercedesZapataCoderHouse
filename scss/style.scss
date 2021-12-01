@@ -1,0 +1,260 @@
+    @import "./imports/variables";
+    @import "./imports/contacto";
+    @import "./imports/footer";
+    @import "./imports/productos";
+    @import "./imports/quienes";
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .seccionTitulo_titulo {
+        color: LightSlateGray;
+        text-align: center;
+        font-family: $fuentePrincipal;
+    }
+    .w-100{
+        width: 100%;
+    }
+
+    // .cajamenu {
+    //     background-color: $colorPrincipal;
+    //     height: 50px;
+    //     width: auto;
+
+    // }
+
+    // .listamenu {
+    //     justify-content: center;
+    // }
+
+    // .menu {
+    //     line-height: center;
+    //     align-items: center;
+    //     justify-content: center;
+    // }
+
+    // .cajamenu listamenu menu a {
+    //     justify-content: center;
+    //     text-align: center;
+    // }
+
+    // .collapse {
+    //     display: flex;
+    //     justify-content: center;
+    // }
+
+    // // // .navbarnavbar-expand-lgnavbar-lightbg-light {
+    // // //     background-color: $colorPrincipal;
+    // // //     display: flex;
+    // // //     justify-content: space-between;
+
+
+    // // // }
+
+
+
+    .nav-link {
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+        width: auto;
+        line-height: 25px;
+        align-items: center;
+        text-decoration: none;
+        list-style: none;
+        color: black;
+        text-align: center;
+
+
+    }
+
+    .nav-link a {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    /*index*/
+    header {
+        margin: 20px;
+    }
+
+    h1 {
+        font-family: $fuenteLogo;
+        text-align: center;
+    }
+
+    .carousel-item {
+        margin: 50px;
+    }
+
+
+    .video {
+        height: 100%;
+        width: 100%;
+    }
+
+    h4 {
+        color: orange;
+        margin: 5px;
+        text-align: center;
+        justify-content: center;
+        font-family: $fuentePrincipal;
+
+    }
+
+    h5 {
+        color: orange;
+        margin: 5px;
+        text-align: center;
+    }
+
+    .oferta {
+
+        color: orangered;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        text-transform: uppercase;
+        margin: 5px;
+        justify-content: center;
+
+    }
+
+    .cajaseccion {
+        display: grid;
+        grid-template-areas:
+            "section1""section2";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
+    .section2 {
+        text-align: center;
+        background-color: $colorSecundario;
+    }
+
+    .section2 td {
+        text-align: justify;
+    }
+
+    main {
+        margin: 20px;
+    }
+
+    h2 {
+        color: LightSlateGray;
+        text-align: center;
+        font-family: $fuentePrincipal;
+    }
+
+
+    .listaproducto {
+        text-decoration: none;
+        letter-spacing: 5px;
+    }
+
+    .listaoferta {
+        list-style-type: square;
+        list-style-position: outside;
+
+    }
+
+    /*pagina de productos*/
+    .productosDisponibles {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+        flex-basis: 1200px;
+
+
+
+    }
+
+    .imagen1 {
+        width: 320px;
+        height: 320px;
+        margin: 20px;
+        order: 1;
+    }
+
+    .imagen1:hover {
+        transform: scale(1.1, 1.1);
+    }
+
+    .imagen:hover {
+        transform: scale(1.1, 1.1);
+    }
+
+    .imagen {
+        width: 320px;
+        height: 320px;
+        margin: 20px;
+    }
+
+
+
+
+
+    /*pagina carrito de compras*/
+    .carrito {
+        background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.es%2Ffotos-vectores-gratis%2Fcarrito-de-compras&psig=AOvVaw17ydNRjzOn2gap_WPIN7gv&ust=1634854668298000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPjivbCC2vMCFQAAAAAdAAAAABAT);
+
+    }
+
+    /* MEDIA QUERIES */
+    @media only screen and (max-width:576px) {
+        .carrusel {
+            width: auto;
+
+        }
+
+        .d-block {
+            width: 288px;
+        }
+
+
+
+        .cajaseccion {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+        }
+    }
+
+    @media only screen and (max-width:720px) {
+        .carrusel {
+            width: auto;
+
+        }
+
+        .cajaseccion {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+        }
+    }
+
+    @media only screen and (min-width:960px) {
+
+        .carrusel {
+            width: auto;
+
+        }
+
+        .cajaseccion {
+            display: grid;
+            grid-template-areas:
+                "section1""section2";
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto;
+
+        }
+    }
