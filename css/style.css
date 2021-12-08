@@ -1,3 +1,39 @@
+
+
+.imagenCarrusel{
+  width: 100%;
+  
+}
+.carrusel{
+  display:flex;
+  justify-content: center;
+ 
+}
+.infoenvios{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.imginfoenvios{
+  height: 160px;
+}
+.destacados{
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  grid-gap: 50px;
+  margin-bottom: 25px;
+  
+}
+
+
+.imgDestacados{
+  height: 280px;
+}
+.imgDestacados:hover{
+  transform: scale(1.1);
+}
+
+}
 #mainContacto {
   background-color: khaki; }
 
@@ -5,10 +41,15 @@
   background-color: palevioletred; }
 
 footer .cajafooter {
+  display: flex;
   background-color: lavender;
-  line-height: center; }
+  justify-content: center;
+  
+   }
   footer .cajafooter .cajafooter_mensaje {
     background-color: lavender;
+    display:flex;
+    align-items: center;
     height: 50px;
     text-align: center; }
 
