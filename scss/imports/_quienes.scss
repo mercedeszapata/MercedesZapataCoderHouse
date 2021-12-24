@@ -1,15 +1,27 @@
 @import "../imports/variables";
 /*pagina quienes somos*/
-.quienes {
+.mainQuienes{
     display:grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-rows: auto;
-    grid-gap: 5px;
+    grid-template-columns: 3fr;
+       grid-template-rows: auto auto auto auto;
+       justify-content: center;
+       
+}
+.nosotros{
+    
+    height: 500px;
+}
+.quienes {
+   
+    width: 50%;
+    background-color: $colorSecundario;
+    
        
 
 }
 
 .quienesDescripcion {
+    display: flex;
     font-family: $fuentePrincipal;
     font-size: larger;
     color: black;
@@ -17,8 +29,16 @@
     background-color: $colorSecundario;
     height: 20%;
     padding:20px;
+    justify-content: center;
 
 }
-.quienesLogo{
-    height: 20%;
+
+.imagenessection{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.imgQuienes{
+    
+    height: 280px;
 }

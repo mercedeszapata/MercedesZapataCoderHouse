@@ -3,13 +3,17 @@
 
 footer {
     .cajafooter {
+        
         background-color: $colorPrincipal;
-        line-height: center;
+                
 
         .cajafooter_mensaje {
+            display:flex;
             background-color: $colorPrincipal;
             height: 50px;
             text-align: center;
+            justify-content: center;
+        align-items: center;
 
 
         }

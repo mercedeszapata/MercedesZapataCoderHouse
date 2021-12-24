@@ -1,9 +1,27 @@
 @import "./variables";
 
 
-#mainContacto {
+.contacto{
+    display:grid;
+    grid-template-columns: 2fr 5fr;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.redSocial{
+    height: 25px;
+}
+.contactoUno{
+    display:grid;
+    grid-template-rows: 100px;
+}
+.contactoDos{
     background-color: $colorSecundario;
 }
+
 .btn{
     background-color: $colorTerciario ;
 

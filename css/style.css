@@ -1,57 +1,35 @@
-
-
-.imagenCarrusel{
-  width: 100%;
-  
-}
-.carrusel{
-  display:flex;
-  justify-content: center;
- 
-}
-.infoenvios{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}
-.imginfoenvios{
-  height: 160px;
-}
-.destacados{
+.contacto {
   display: grid;
-  grid-template-columns: 2fr 2fr 2fr 2fr;
-  grid-gap: 50px;
-  margin-bottom: 25px;
-  
-}
+  grid-template-columns: 2fr 5fr; }
 
+ul {
+  list-style: none; }
 
-.imgDestacados{
-  height: 280px;
-}
-.imgDestacados:hover{
-  transform: scale(1.1);
-}
+a {
+  text-decoration: none; }
 
-}
-#mainContacto {
+.redSocial {
+  height: 25px; }
+
+.contactoUno {
+  display: grid;
+  grid-template-rows: 100px; }
+
+.contactoDos {
   background-color: khaki; }
 
 .btn {
   background-color: palevioletred; }
 
 footer .cajafooter {
-  display: flex;
-  background-color: lavender;
-  justify-content: center;
-  
-   }
+  background-color: lavender; }
   footer .cajafooter .cajafooter_mensaje {
+    display: flex;
     background-color: lavender;
-    display:flex;
-    align-items: center;
     height: 50px;
-    text-align: center; }
+    text-align: center;
+    justify-content: center;
+    align-items: center; }
 
 .productosDisponibles {
   display: flex;
@@ -81,23 +59,37 @@ footer .cajafooter {
   transform: scale(1.1, 1.1); }
 
 /*pagina quienes somos*/
-.quienes {
+.mainQuienes {
   display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-template-rows: auto;
-  grid-gap: 5px; }
+  grid-template-columns: 3fr;
+  grid-template-rows: auto auto auto auto;
+  justify-content: center; }
+
+.nosotros {
+  height: 500px; }
+
+.quienes {
+  width: 50%;
+  background-color: khaki; }
 
 .quienesDescripcion {
+  display: flex;
   font-family: Arial, Helvetica, sans-serif;
   font-size: larger;
   color: black;
   text-align: justify;
   background-color: khaki;
   height: 20%;
-  padding: 20px; }
+  padding: 20px;
+  justify-content: center; }
 
-.quienesLogo {
-  height: 20%; }
+.imagenessection {
+  display: flex;
+  justify-content: center;
+  margin: 20px; }
+
+.imgQuienes {
+  height: 280px; }
 
 * {
   margin: 0;
@@ -193,6 +185,17 @@ h2 {
   list-style-type: square;
   list-style-position: outside; }
 
+.destacados {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; }
+
+.imgDestacados {
+  height: 280px;
+  margin: 20px; }
+
+.imgDestacados:hover {
+  transform: scale(1.1); }
+
 /*pagina de productos*/
 .productosDisponibles {
   display: flex;
@@ -220,9 +223,15 @@ h2 {
   height: 320px;
   margin: 20px; }
 
+.dropdown {
+  color: khaki; }
+
 /*pagina carrito de compras*/
 .carrito {
   background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.es%2Ffotos-vectores-gratis%2Fcarrito-de-compras&psig=AOvVaw17ydNRjzOn2gap_WPIN7gv&ust=1634854668298000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPjivbCC2vMCFQAAAAAdAAAAABAT); }
+
+.carruselQuienes {
+  width: 50%; }
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 576px) {

@@ -19,6 +19,7 @@
     .w-100{
         width: 100%;
     }
+    
 
     // .cajamenu {
     //     background-color: $colorPrincipal;
@@ -163,7 +164,19 @@
         list-style-position: outside;
 
     }
-
+    .destacados{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        
+    }
+        
+    .imgDestacados{
+        height: 280px;
+margin: 20px;
+    }
+    .imgDestacados:hover{
+        transform: scale(1.1);
+      }
     /*pagina de productos*/
     .productosDisponibles {
         display: flex;
@@ -198,6 +211,9 @@
         height: 320px;
         margin: 20px;
     }
+    .dropdown{
+        color: $colorSecundario;
+    }
 
 
 
@@ -208,7 +224,9 @@
         background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.es%2Ffotos-vectores-gratis%2Fcarrito-de-compras&psig=AOvVaw17ydNRjzOn2gap_WPIN7gv&ust=1634854668298000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPjivbCC2vMCFQAAAAAdAAAAABAT);
 
     }
-
+    .carruselQuienes{
+        width: 50%;
+    }
     /* MEDIA QUERIES */
     @media only screen and (max-width:576px) {
         .carrusel {
