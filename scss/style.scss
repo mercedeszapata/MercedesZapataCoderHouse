@@ -16,10 +16,11 @@
         text-align: center;
         font-family: $fuentePrincipal;
     }
-    .w-100{
+
+    .w-100 {
         width: 100%;
     }
-    
+
 
     // .cajamenu {
     //     background-color: $colorPrincipal;
@@ -164,19 +165,22 @@
         list-style-position: outside;
 
     }
-    .destacados{
-        display:grid;
+
+    .destacados {
+        display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        
+
     }
-        
-    .imgDestacados{
+
+    .imgDestacados {
         height: 280px;
-margin: 20px;
+        margin: 20px;
     }
-    .imgDestacados:hover{
+
+    .imgDestacados:hover {
         transform: scale(1.1);
-      }
+    }
+
     /*pagina de productos*/
     .productosDisponibles {
         display: flex;
@@ -211,7 +215,8 @@ margin: 20px;
         height: 320px;
         margin: 20px;
     }
-    .dropdown{
+
+    .dropdown {
         color: $colorSecundario;
     }
 
@@ -224,11 +229,13 @@ margin: 20px;
         background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.es%2Ffotos-vectores-gratis%2Fcarrito-de-compras&psig=AOvVaw17ydNRjzOn2gap_WPIN7gv&ust=1634854668298000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPjivbCC2vMCFQAAAAAdAAAAABAT);
 
     }
-    .carruselQuienes{
+
+    .carruselQuienes {
         width: 50%;
     }
+
     /* MEDIA QUERIES */
-    @media only screen and (max-width:576px) {
+    @media only screen and (max-width:375px) {
         .carrusel {
             width: auto;
 
@@ -245,34 +252,66 @@ margin: 20px;
             grid-template-columns: 1fr;
             grid-template-rows: auto;
         }
-    }
 
-    @media only screen and (max-width:720px) {
-        .carrusel {
-            width: auto;
+        .imginfoenvios {
+            width: 100%;
+        }
+
+        .destacados {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
 
         }
+
+        .imgDestacados {
+            height: 150px;
+        }
+
+        .video {
+            display: flex;
+            height: 150px;
+        }
+    }
+
+    @media only screen and (max-width:768px) {
+        .carrusel {
+            width: 80%;
+
+        }
+
+        .d-block {
+            width: 288px;
+        }
+
+
 
         .cajaseccion {
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: auto;
         }
-    }
 
-    @media only screen and (min-width:960px) {
+        .imginfoenvios {
+            width: 80%;
+        }
 
-        .carrusel {
-            width: auto;
+        .destacados {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+
 
         }
 
-        .cajaseccion {
-            display: grid;
-            grid-template-areas:
-                "section1""section2";
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: auto;
-
+        .imgDestacados {
+            height: 500px;
         }
+
+        .video {
+            width: 80%;
+        }
+
     }

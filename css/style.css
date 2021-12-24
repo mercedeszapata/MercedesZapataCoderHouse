@@ -61,7 +61,6 @@ footer .cajafooter {
 /*pagina quienes somos*/
 .mainQuienes {
   display: grid;
-  grid-template-columns: 3fr;
   grid-template-rows: auto auto auto auto;
   justify-content: center; }
 
@@ -234,7 +233,7 @@ h2 {
   width: 50%; }
 
 /* MEDIA QUERIES */
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 375px) {
   .carrusel {
     width: auto; }
   .d-block {
@@ -242,21 +241,35 @@ h2 {
   .cajaseccion {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto; } }
+    grid-template-rows: auto; }
+  .imginfoenvios {
+    width: 100%; }
+  .destacados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .imgDestacados {
+    height: 150px; }
+  .video {
+    display: flex;
+    height: 150px; } }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 768px) {
   .carrusel {
-    width: auto; }
+    width: 80%; }
+  .d-block {
+    width: 288px; }
   .cajaseccion {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto; } }
-
-@media only screen and (min-width: 960px) {
-  .carrusel {
-    width: auto; }
-  .cajaseccion {
-    display: grid;
-    grid-template-areas: "section1" "section2";
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto; } }
+    grid-template-rows: auto; }
+  .imginfoenvios {
+    width: 80%; }
+  .destacados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .imgDestacados {
+    height: 500px; }
+  .video {
+    width: 80%; } }
