@@ -22,41 +22,7 @@
     }
 
 
-    // .cajamenu {
-    //     background-color: $colorPrincipal;
-    //     height: 50px;
-    //     width: auto;
-
-    // }
-
-    // .listamenu {
-    //     justify-content: center;
-    // }
-
-    // .menu {
-    //     line-height: center;
-    //     align-items: center;
-    //     justify-content: center;
-    // }
-
-    // .cajamenu listamenu menu a {
-    //     justify-content: center;
-    //     text-align: center;
-    // }
-
-    // .collapse {
-    //     display: flex;
-    //     justify-content: center;
-    // }
-
-    // // // .navbarnavbar-expand-lgnavbar-lightbg-light {
-    // // //     background-color: $colorPrincipal;
-    // // //     display: flex;
-    // // //     justify-content: space-between;
-
-
-    // // // }
-
+   
 
 
     .nav-link {
@@ -181,18 +147,21 @@
 
     /*pagina de productos*/
     .productosDisponibles {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
+     display: flex;
+    flex-direction: row;
+      flex-wrap: wrap;
+     justify-content: space-evenly;
         align-items: center;
         align-content: center;
         flex-basis: 1200px;
-
-
-
+     
     }
-
+   .figure-img {
+       height: 320px;
+   }
+   .figure-img:hover {
+    transform: scale(1.1, 1.1);
+}
     .imagen1 {
         width: 320px;
         height: 320px;
