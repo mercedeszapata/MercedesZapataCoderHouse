@@ -1,44 +1,140 @@
 @import "../imports/variables";
 /*pagina quienes somos*/
-.mainQuienes{
-    display:grid;
+// .mainQuienes{
+//     display:grid;
     
-       grid-template-rows: auto auto auto auto;
-       justify-content: center;
+//        grid-template-rows: auto auto auto auto;
+//        justify-content: center;
        
-}
-.nosotros{
+// }
+// .nosotros{
     
-    height: 500px;
-}
-.quienes {
+//     height: 500px;
+// }
+// .quienes {
    
-    width: 50%;
-    background-color: $colorSecundario;
+//     width: 50%;
+//     background-color: $colorSecundario;
     
        
 
-}
+// }
 
-.quienesDescripcion {
-    display: flex;
-    font-family: $fuentePrincipal;
-    font-size: larger;
-    color: black;
-    text-align: justify;
-    background-color: $colorSecundario;
-    height: 20%;
-    padding:20px;
-    justify-content: center;
+// .quienesDescripcion {
+//     display: flex;
+//     font-family: $fuentePrincipal;
+//     font-size: larger;
+//     color: black;
+//     text-align: justify;
+//     background-color: $colorSecundario;
+//     height: 20%;
+//     padding:20px;
+//     justify-content: center;
 
-}
+// }
 
-.imagenessection{
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-}
-.imgQuienes{
+// .imagenessection{
+//     display: flex;
+//     justify-content: center;
+//     margin: 20px;
+// }
+// .imgQuienes{
     
-    height: 280px;
-}
+//     height: 280px;
+// }
+
+.nosotros{
+   display: flex;
+   flex-direction: row;
+    
+   justify-content:center;
+    
+  }
+.quienes{
+          width:25% ;
+ }
+  
+  .quienesDescripcion{
+    display: flex;
+    width: 280px;
+        justify-content: center;
+        background-color: $colorSecundario;
+        text-align: justify;
+  }
+  .imagenessection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    margin-top: 10px;
+  }
+  .imgQuienes{
+      height: 280px;
+  }
+  /* MEDIA QUERIES */
+  @media only screen and (max-width:375px) {
+    .nosotros{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;         
+             justify-content: center;
+             
+             
+         
+       }
+     .quienes{
+               width:50% ;
+      }
+       
+       .quienesDescripcion{
+         display: flex;
+         text-align: justify;
+             justify-content: center;
+             background-color: $colorSecundario;
+       }
+       .imagenessection{
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         flex-wrap: wrap;
+         
+         margin-top: 10px;
+       }
+       .imgQuienes{
+           height: 140px;
+       }
+  }
+  @media only screen and (max-width:768px) {
+    .nosotros{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;         
+             justify-content: center;
+             
+             
+         
+       }
+     .quienes{
+         height: 320px;
+         width: 320px;
+               
+      }
+       
+       .quienesDescripcion{
+         display: flex;
+         text-align: justify;
+             justify-content: center;
+             background-color: $colorSecundario;
+       }
+       .imagenessection{
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         flex-wrap: wrap;
+         
+         margin-top: 10px;
+       }
+       .imgQuienes{
+           height: 320px;
+       }
+  }

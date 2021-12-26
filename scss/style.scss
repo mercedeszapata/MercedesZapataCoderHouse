@@ -90,9 +90,7 @@
         text-align: center;
     }
 
-    .carousel-item {
-        margin: 50px;
-    }
+    
 
 
     .video {
@@ -233,6 +231,10 @@
     .carruselQuienes {
         width: 50%;
     }
+    .video {
+        width: 100%;
+        height: auto;
+    }
 
     /* MEDIA QUERIES */
     @media only screen and (max-width:375px) {
@@ -276,10 +278,10 @@
     }
 
     @media only screen and (max-width:768px) {
-        .carrusel {
-            width: 80%;
+        // .carrusel {
+        //     width: 90%;
 
-        }
+        // }
 
         .d-block {
             width: 288px;
@@ -307,7 +309,7 @@
         }
 
         .imgDestacados {
-            height: 500px;
+            height: 320px;
         }
 
         .video {

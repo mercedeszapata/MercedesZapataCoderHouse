@@ -59,36 +59,75 @@ footer .cajafooter {
   transform: scale(1.1, 1.1); }
 
 /*pagina quienes somos*/
-.mainQuienes {
-  display: grid;
-  grid-template-rows: auto auto auto auto;
+.nosotros {
+  display: flex;
+  flex-direction: row;
   justify-content: center; }
 
-.nosotros {
-  height: 500px; }
-
 .quienes {
-  width: 50%;
-  background-color: khaki; }
+  width: 25%; }
 
 .quienesDescripcion {
   display: flex;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: larger;
-  color: black;
-  text-align: justify;
+  width: 280px;
+  justify-content: center;
   background-color: khaki;
-  height: 20%;
-  padding: 20px;
-  justify-content: center; }
+  text-align: justify; }
 
 .imagenessection {
   display: flex;
-  justify-content: center;
-  margin: 20px; }
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px; }
 
 .imgQuienes {
   height: 280px; }
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 375px) {
+  .nosotros {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .quienes {
+    width: 50%; }
+  .quienesDescripcion {
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    background-color: khaki; }
+  .imagenessection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px; }
+  .imgQuienes {
+    height: 140px; } }
+
+@media only screen and (max-width: 768px) {
+  .nosotros {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .quienes {
+    height: 320px;
+    width: 320px; }
+  .quienesDescripcion {
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    background-color: khaki; }
+  .imagenessection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px; }
+  .imgQuienes {
+    height: 320px; } }
 
 * {
   margin: 0;
@@ -126,9 +165,6 @@ header {
 h1 {
   font-family: "Satisfy", cursive;
   text-align: center; }
-
-.carousel-item {
-  margin: 50px; }
 
 .video {
   height: 100%;
@@ -232,6 +268,10 @@ h2 {
 .carruselQuienes {
   width: 50%; }
 
+.video {
+  width: 100%;
+  height: auto; }
+
 /* MEDIA QUERIES */
 @media only screen and (max-width: 375px) {
   .carrusel {
@@ -255,8 +295,6 @@ h2 {
     height: 150px; } }
 
 @media only screen and (max-width: 768px) {
-  .carrusel {
-    width: 80%; }
   .d-block {
     width: 288px; }
   .cajaseccion {
@@ -270,6 +308,6 @@ h2 {
     flex-wrap: wrap;
     justify-content: center; }
   .imgDestacados {
-    height: 500px; }
+    height: 320px; }
   .video {
     width: 80%; } }
