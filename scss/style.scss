@@ -236,17 +236,10 @@
             height: 150px;
         }
 
-        .video {
-            display: flex;
-            height: 150px;
-        }
-    }
+        
 
     @media only screen and (max-width:768px) {
-        // .carrusel {
-        //     width: 90%;
-
-        // }
+       
 
         .d-block {
             width: 288px;
@@ -277,8 +270,4 @@
             height: 320px;
         }
 
-        .video {
-            width: 80%;
-        }
-
-    }
+       
